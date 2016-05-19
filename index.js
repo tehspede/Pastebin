@@ -1,3 +1,4 @@
 var app = require('./server/app.js');
+var config = require('./config.json');
 
-app.listen(3000);
+app.listen(config.port);
