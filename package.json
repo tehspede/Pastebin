@@ -1,0 +1,20 @@
+{
+  "name": "pastebin.js",
+  "version": "0.1.0",
+  "description": "A pastebin written in JS",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js"
+  },
+  "keywords": [
+    "pastebin"
+  ],
+  "author": "Aleksi Gold",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.15.1",
+    "express": "^4.13.4",
+    "mongoose": "^4.4.17"
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "name": "pastebin.js",
+  "description": "A pastebin written in JS",
+  "main": "index.js",
+  "authors": [
+    "Aleksi Gold"
+  ],
+  "license": "ISC",
+  "keywords": [
+    "pastebin"
+  ],
+  "homepage": "",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "jquery": "^2.2.3",
+    "bootstrap": "^3.3.6",
+    "angular": "^1.5.5",
+    "angular-route": "^1.5.5",
+    "angular-sanitize": "^1.5.5"
+  }
+}
