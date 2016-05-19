@@ -5,6 +5,7 @@
 
 pre {
     overflow-x: auto;
+    background-color: #F0F0F0;
 }
 pre code {
     overflow-wrap: normal;
