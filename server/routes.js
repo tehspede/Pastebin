@@ -11,6 +11,10 @@ router.get('/paste/:pasteId/', function (req, res) {
   controllers.paste.get(req, res);
 });
 
+router.get('/paste/:pasteId/raw', function (req, res) {
+  controllers.paste.getRaw(req, res);
+});
+
 router.post('/paste/', function (req, res) {
   controllers.paste.save(req, res);
 });

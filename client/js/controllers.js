@@ -9,6 +9,7 @@ pastebinControllers.controller('MainCtrl',
          $location.path('/');
        }
         $scope.paste = data.paste;
+        $scope.id = data['_id'];
       });
     }
 
@@ -19,6 +20,14 @@ pastebinControllers.controller('MainCtrl',
       .success(function(data, status) {
         $location.path('/' + data['_id']);
       });
+    };
+
+    $scope.redirect = function (loc = '/') {
+      $location.path(loc);
+    };
+
+    $scope.href = function (loc = '/') {
+      window.location.href = loc;
     };
   }
 );
